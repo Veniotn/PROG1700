@@ -1,5 +1,5 @@
 public class Exercise2 {
-    public static void main(String []ags) {
+   public static void main(String []ags) {
         int rectangle_length = 8;
         int rectangle_width = 4;
         int rectangle_height = 2;
@@ -9,7 +9,7 @@ public class Exercise2 {
         int answer1 = add(value1, value2, value3);
         int equation = 2;
         int answer2 = multiply1(answer1, equation);
-        System.out.println("The area of a triangle that is " + rectangle_length + "m in length, " + rectangle_width + "m in width, " + "and " + rectangle_height + "m in height is " + answer2 + "m^2.");
+        System.out.println("The area of a rectangluar prisim that is " + rectangle_length + "m in length, " + rectangle_width + "m in width, " + "and " + rectangle_height + "m in height is " + answer2 + "m^2.");
     }
 
 
@@ -23,4 +23,4 @@ public class Exercise2 {
         return result2;
     }
 
-}
+} 
